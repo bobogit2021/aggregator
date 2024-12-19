@@ -1,6 +1,6 @@
 name: Refresh
 on:
-  # performed every six hours
+  # performed every ten days
   schedule:
     - cron: "0 */2 * * *"
   workflow_dispatch:
