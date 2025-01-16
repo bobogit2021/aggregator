@@ -1,6 +1,6 @@
 name: Collect
 on:
-    # performed every eleven hours
+    # 每3小时执行一次
   schedule:
     - cron: "0 */3 * * *"
   workflow_dispatch:
